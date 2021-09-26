@@ -1,0 +1,81 @@
+*{margin:0;padding: 0;box-sizing: border-box; font-family: 'Titillium Web', sans-serif;}
+#body_login{
+    height: 100vh;
+    background-image: url(login.png);
+    background-repeat: repeat;
+    background-size: auto;
+}
+#body_sesion{
+    height: 100vh;
+    background-image: url(sesion.png);
+    background-repeat: repeat;
+    background-size: auto;
+}
+span{
+    font-weight: bold;
+}
+#contenedor_login{
+    display: flex;
+}
+#contenedor_registro{
+    display: none;
+}
+.contenedor{
+    margin: auto;
+    margin-top: 40px;
+    width: 350px;
+    background-color: rgba(170, 180, 220, 0.8);
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    border-radius: 10px;
+}
+.contenedor_item{
+    border: 0;
+    margin: 10px;
+    display: inline;
+    height: 40px;
+    text-align: center;
+}
+#entrar, #registrar{
+    font-size: 1.2rem;
+    background-color: rgb(167, 167, 204);
+}
+#entrar:hover, #registrar:hover{
+    background-color: rgb(157, 157, 255);
+    cursor: pointer;
+    font-weight: bold;
+}
+.contenedor_enlace{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.tit{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+input:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+input:focus{
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 1.1rem;
+}
+#usuario:focus::placeholder {
+    color: transparent;
+}
+.enlace:hover{
+    cursor: pointer;
+    color: blue;
+}
