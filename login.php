@@ -3,7 +3,7 @@
         <div class="contenedor_item"><p class="tit">Login</p></div>
         <input type="text" placeholder="Nombre de Usuario" class="contenedor_item" id="usuario">
         <input type="password" placeholder='Contraseña' onfocus="this.placeholder=''" 
-            onblur="this.placeholder='Contraseña'" class="contenedor_item" id="clave">
+               onblur="this.placeholder='Contraseña'" class="contenedor_item" id="clave">
         <button id="entrar" class="contenedor_item">Ingresar</button>
         <div class="contenedor_enlace contenedor_item"><p id="enlaceRegistro" class="enlace">Registrarse</p></div>
     </div>

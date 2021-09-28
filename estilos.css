@@ -79,3 +79,16 @@ input:focus{
     cursor: pointer;
     color: blue;
 }
+#msj{
+    height: fit-content;
+    background-color:rgba(200, 200, 200, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
